@@ -1,0 +1,7 @@
+[
+
+    {"productId":101, "productName":"toy","productPrice":3000,"productDes":"THE product is toy ","productImg":"assets/images/hlo.jpg"},
+    {"productId":102, "productName":"drone","productPrice":50000,"productDes":"the product is drone" ,"productImg":"assets/images/drone.jpg"},
+    {"productId":103, "productName":"tiger","productPrice":500,"productDes":"the product is TIGER ","productImg":"assets/images/tiger.jpg"},
+    {"productId":104, "productName":"car","productPrice":100000,"productDes":"the product is car ","productImg":"assets/images/car.jpg"}
+]

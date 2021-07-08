@@ -1,0 +1,33 @@
+<p>employee1 Details</p>
+<table border="2" class=table >
+    <tr>
+        <td colspan="3">
+            <input  type="text"  width="10px" class="form-control"  placeholder="Search" [(ngModel)]="filteredString" >
+        </td>
+       
+    </tr>
+    <tr >
+        <th  class="bg-primary text-white">
+            Employeeid
+        </th>
+        <th class="bg-primary text-white">
+            Employeename
+        </th >
+        <th class="bg-primary text-white">
+            Employeesalary
+        </th>
+    </tr>
+    <tr appMycolor *ngFor="let employee of employees | empsearch:filteredString " >
+
+        <td >
+               {{employee.empid}}
+        </td>
+        <td >
+            {{employee.empname| titlecase}}
+     </td>
+     <td >
+        {{employee.empsal| currency:'INR'}}
+ </td>
+    </tr>
+</table>
+{{errMsg | json}}

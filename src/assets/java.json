@@ -1,0 +1,6 @@
+[
+    {"courseId":101, "courseName":"java","coursePrice":10000,"courseDescrption":"core java training for 30 days","courseImg":"assets/images/Java.jpg"},
+    {"courseId":102, "courseName":"AWS","coursePrice":12000,"courseDescrption":"spring framework training for 30 days","courseImg":"assets/images/aws.jpg"},
+    {"courseId":103, "courseName":"spring boot","coursePrice":8000,"courseDescrption":"spring boot training for 30 days","courseImg":"assets/images/spring.jpg"},
+    {"courseId":104, "courseName":"microservices","coursePrice":6000,"courseDescrption":"microservices training for 30 days","courseImg":"assets/images/micro.jpg"}
+]
